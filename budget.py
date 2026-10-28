@@ -1,9 +1,9 @@
 
 MONTHLY_INCOME = 1800.00
 cat > budget.py <<'EOF'
-MONTHLY_INCOME = 1800.00
+MONTHLY_INCOME = 1850.00
 RENT = 750.00
-DAYS_IN_MONTH = 30
+DAYS_IN_MONTH = 31
 
 
 def remaining_after_rent(income: float, rent: float) -> float:
